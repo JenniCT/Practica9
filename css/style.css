@@ -1,0 +1,20 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Century Gothic";
+}
+
+article{
+    background-color:whitesmoke;
+}
+
+#Navegacion{
+    background-color: rgb(56,55,55);
+}
+
+article{
+    padding-top: 6px;
+}
