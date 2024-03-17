@@ -1,40 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-Mex">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <title>Práctica 9</title>
 </head>
-<body>
+<body>          
 
-    <nav class="navbar navbar-expand-lg bg-light" id="Navegacion">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Chiapas</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link">Lugares</a>
-                </li>
-                </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
+    <!---------Barra de Navegación-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Chiapas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link" href="Galeria.html">Galeria</a>
+            <a class="nav-link" href="#">Lugares</a>
+          </div>
         </div>
+      </div>
     </nav>
+    
+    
+    <!---------Carrusel-->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -92,44 +86,70 @@
                 por decision propia.
             </p>
         </div>
-        <div class="card-group">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
             <div class="card">
-              <img src="img/tuxtla.webp" class="card-img-top" alt="...">
+              <img src="img/Tuxtla.jpg" class="card-img-top" alt="Tuxtla">
               <div class="card-body">
                 <h5 class="card-title">Tuxtla Gutierrez</h5>
-                <p class="card-text">Es la capital del estado de Chiapas, Tuxlta Gutiérrez
-                    fue fundada por los indios zoques con el nombre de Coyatoc “lugar, casa o tierra de conejos”. 
-                    El nombre actual se deriva del náhuatl; los aztecas invadieron la región, destruyeron Coyatoc y le nombraron Tochtlán, que significa lo mismo; más tarde los españoles castellanizaron este nombre llamándolo Tuxtla.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/tonala.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Tonala</h5>
-                <p class="card-text">Es una de las poblaciones más antiguas y más cargadas de historia de toda la costa chiapaneca. Conserva en buena medida su arquitectura tradicional de casas de teja y fuerte colorido. 
-                    La vida de esta ciudad gira alrededor del parque central Esperanza, adornada por una estela de influencia teotihuacana, procedente del sitio arqueológico de Horcones y que representa a Tláloc.
-                    Tonalá es el centro de una de las principales regiones ganaderas de Chiapas. La visita a Tonalá debe incluir el templo colonial de San Francisco de Asís y la amplia franja costera del Pacifico mexicano.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/SanCDLC.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">San Cristobal de Las casas</h5>
                 <p class="card-text">
-                    San Cristóbal de las Casas es una de las ciudades coloniales mas bellas de México que aún conserva su traza urbana donde se observa el sincrétismo cultural de la cultura hispánica y la indígena. 
-                    La catedral y los templos mas importantes, sus museos, la permanencia de las culturas indígenas y sus numerosos visitantes la convierten en una ciudad con magia, tradición y leyenda.
-                    Por su armónica composición urbana, podrá descubrir imponentes edificios religiosos como la Catedral o el Templo de Santo Domingo, revestidos con profusos detalles de estilo barroco y 
-                    manufactura indígena, que perpetúan la herencia cultural de las etnias tzotziles, tzeltales y lacandones que residen en sus alrededores y de quienes también podrá observar exóticas colecciones 
-                    de objetos de uso cotidiano, artesanías y piezas prehispánicas.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  Es la capital del estado de Chiapas, Tuxlta Gutiérrez
+                  fue fundada por los indios zoques con el nombre de Coyatoc 
+                  “lugar, casa o tierra de conejos”. El nombre actual se 
+                  deriva del náhuatl; los aztecas invadieron la región, 
+                  destruyeron Coyatoc y le nombraron Tochtlán, que significa 
+                  lo mismo; más tarde los españoles castellanizaron este nombre 
+                  llamándolo Tuxtla.
+                </p>
               </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/Tonala.jpg" class="card-img-top" alt="Tonalá">
+              <div class="card-body">
+                <h5 class="card-title">Tonalá</h5>
+                <p class="card-text">
+                  Es una de las poblaciones más antiguas y más cargadas de historia de toda la costa chiapaneca. 
+                  Conserva en buena medida su arquitectura tradicional de casas de teja y fuerte colorido. 
+                  La vida de esta ciudad gira alrededor del parque central Esperanza, adornada por una 
+                  estela de influencia teotihuacana, procedente del sitio arqueológico de Horcones y 
+                  que representa a Tláloc.Tonalá es el centro de una de las principales regiones ganaderas de Chiapas. 
+                  La visita a Tonalá debe incluir el templo colonial de San Francisco de Asís y la amplia franja costera 
+                  del Pacifico mexicano.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/SanCDLC.jpg" class="card-img-top" alt="San Cristobal">
+              <div class="card-body">
+                <h5 class="card-title">San Cristobal de Las casas</h5>
+                <p class="card-text">
+                  San Cristóbal de las Casas es una de las ciudades coloniales mas bellas de México que 
+                  aún conserva su traza urbana donde se observa el sincrétismo cultural de la cultura 
+                  hispánica y la indígena. La catedral y los templos mas importantes, sus museos, 
+                  la permanencia de las culturas indígenas y sus numerosos visitantes la convierten 
+                  en una ciudad con magia, tradición y leyenda. Por su armónica composición urbana, 
+                  podrá descubrir imponentes edificios religiosos como la Catedral o el Templo de 
+                  Santo Domingo, revestidos con profusos detalles de estilo barroco y 
+                  manufactura indígena, que perpetúan la herencia cultural de las etnias tzotziles, 
+                  tzeltales y lacandones que residen en sus alrededores y de quienes también podrá 
+                  observar exóticas colecciones de objetos de uso cotidiano, artesanías y piezas prehispánicas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
     </article>
+
     <footer>
-        <h2>Ubicación</h2>
+        <h2>Datos Personales</h2>
+        <h6>Licenciatura en Sistemas Computacionales</h6>
+        <h6>Yenifer Jazmín Clemente Toala</h6>
+        <h6>5to Semestre Grupo J</h6>
     </footer>
+
 </body>
 </html>
